@@ -49,5 +49,12 @@ def solver():
     # Show results
     visualize_five_starts(cities, best_tour)
 
+#    total_distance = 0.0
+#    for i in range(len(cities)):
+#        total_distance += dist_matrix[i][(i+1) % len(cities)]
+#
+#    print(f"\nTotal Distance: {total_distance:.4f}")
+
+
 if __name__ == "__main__":
     solver()
