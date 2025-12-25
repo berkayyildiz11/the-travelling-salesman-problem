@@ -50,4 +50,4 @@ def solver():
     visualize_five_starts(cities, best_tour)
 
 if __name__ == "__main__":
-    main()
+    solver()
