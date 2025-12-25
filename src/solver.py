@@ -7,11 +7,11 @@ from tsp_problem import TSPProblem, TSP_RandomKey
 from algorithms import run_ga, run_brkga
 from visualize import visualize_five_starts
 
-def main():
+def solver():
     # 1. Load Data
     print("Loading data...")
-    city_file_path = r"C:\Users\MSI\Documents\GitHub\the-travelling-salesman-problem\data\cityData.txt"
-    dist_file_path = r"C:\Users\MSI\Documents\GitHub\the-travelling-salesman-problem\data\intercityDistance.txt"
+    city_file_path = r"./data/cityData.txt"
+    dist_file_path = r"./data/intercityDistance.txt"
     
     try:
         cities = load_cities(city_file_path)
